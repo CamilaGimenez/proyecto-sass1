@@ -1,0 +1,11 @@
+footer {
+  padding: 0.5rem;
+  .fila-footer {
+    border: 1px groove $color-primario;
+    margin-bottom: 0.5rem;
+    .fa-brands {
+      font-size: 2rem;
+      color: $color-primario;
+    }
+  }
+}

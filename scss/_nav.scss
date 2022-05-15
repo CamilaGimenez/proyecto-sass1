@@ -1,0 +1,19 @@
+.navbar{
+    .bi{
+        font-size:2rem;
+        color:$color-primario;
+    }
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        color: $color-primario;
+        background-color:$color-secundario;
+        margin: 5px;
+        border-radius: 10px;
+        &:hover{
+            color: $color-secundario;
+        background-color:$color-primario;
+        }
+    }  
+    
+}
